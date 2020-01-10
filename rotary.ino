@@ -6,13 +6,7 @@ const int dirPin = 2;
 
 const int enPin = 8;
 
-
-
-
-
 //
-
-
 
 int val;
 
@@ -50,10 +44,6 @@ void setup() {
 
 
 
-
-
-
-
   // Sets the two pins as Outputs
 
   pinMode(stepPin,OUTPUT);
@@ -82,17 +72,7 @@ void loop() {
 
 
 
- 
-
         motorStep(1);
-
-
-
- 
-
- 
-
- 
 
 
 
